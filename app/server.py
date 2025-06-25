@@ -29,3 +29,4 @@ def predict(data: dict):
     class_name = class_names[prediction][0]
     return {'predicted_class': class_name}
 
+
